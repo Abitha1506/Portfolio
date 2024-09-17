@@ -3,15 +3,17 @@
     padding: 0;
 }
 body{
-    background-color: black;
-    color: aliceblue;
+    background-image: url(./wallpaper2you_162700.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
 }
 .navbar{
     display: flex;
     gap: 10%;
     margin-left: 70%;
-    font-weight: 30px;
     list-style: none;
+    font-weight: bold;
 }
 .main{
     display: flex;
@@ -19,13 +21,14 @@ body{
 .details{
     margin-top: 20%;
     margin-left: 20%;
+    color: white;
 }
 span{
     color: crimson;
     font-family:serif;
 }
 .navbar li a {
-    color: crimson;
+    color: white;
     text-decoration: none;
 }
 .para{
@@ -34,10 +37,10 @@ span{
 .tools {
     font-family: cursive;
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns:auto auto auto ;
 }
 .tools h3{
-    color: crimson;
+    color: white;
 }
 .about h3{
     font-family: cursive;
@@ -49,6 +52,7 @@ span{
 }
 .none{
     font-weight: bolder;
+    color: white;
 }
 a{
     text-decoration: none;
@@ -80,3 +84,7 @@ li a{
 .image{
     animation: image 3s ease-in-out ;
 }
+.con{
+    color: white;
+}
+
