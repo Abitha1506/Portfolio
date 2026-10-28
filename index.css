@@ -20,17 +20,20 @@
    html{
    scroll-behavior: smooth;
    }
-
-   header{
-   background-color: var(--dark-primary);
-   padding:  20px;
-   color: #fff;
-   display: flex;
-   justify-content: space-evenly;
-   align-items: center;
-   position: fixed;
-   width: 100%;
-   }
+   
+header {
+    background-color: var(--dark-primary);
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
 
    header .logo{
    font-weight: bold;
@@ -265,10 +268,6 @@
    }
  
    /* Projects */
-   
-/* ==============================
-   PROJECTS SECTION
-================================= */
 
 .work {
     background-color: #22282f;
